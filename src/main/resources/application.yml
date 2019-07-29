@@ -1,0 +1,9 @@
+# DataSource Config
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///client_file_db?serverTimezone=UTC
+    username: root
+    password: 123
+server:
+  port: 8081
